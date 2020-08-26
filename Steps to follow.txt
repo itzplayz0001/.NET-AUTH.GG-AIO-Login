@@ -4,4 +4,10 @@ Create these file to get started!
 Now, just copy paste the code from API.cs and paste it
 
 - Now in your login form, create a Click event for your button
-- 
+
+- Now copy paste the code from login.cs
+
+- Open program.cs and place this 
+OnProgramStart.Initialize("application-name", "aid", "application-secret", "applicationversion");
+
+Make sure you follow me on GitHub!
