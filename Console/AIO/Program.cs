@@ -5,13 +5,13 @@ using AuthGG;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MadBunny_Spoofer
+namespace Application
 {
     class Program
     {
         static void Main(string[] args)
         {
-            OnProgramStart.Initialize("MadBunny", "679462", "TUZUpB3iaGXmolkEXO2DM4pvDZc6Bt81Y6i", "1.0");
+            OnProgramStart.Initialize("APPLICATION_NAME", "AID", "APPLICATION_SECRET", "VERSION");
 
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Enter your auth key: ");
@@ -19,7 +19,6 @@ namespace MadBunny_Spoofer
 
             if (AuthGG.API.AIO(input))
             {
-            
                 // CODE WHEN LOGIN IS VALID
                 
                 Console.ForegroundColor = ConsoleColor.Green;
